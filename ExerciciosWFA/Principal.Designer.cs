@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btExercicio02 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -51,14 +51,15 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btExercicio02
             // 
-            this.button2.Location = new System.Drawing.Point(113, 53);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(83, 36);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btExercicio02.Location = new System.Drawing.Point(113, 53);
+            this.btExercicio02.Name = "btExercicio02";
+            this.btExercicio02.Size = new System.Drawing.Size(83, 36);
+            this.btExercicio02.TabIndex = 1;
+            this.btExercicio02.Text = "Exercicio 02 ";
+            this.btExercicio02.UseVisualStyleBackColor = true;
+            this.btExercicio02.Click += new System.EventHandler(this.btExercicio02_Click);
             // 
             // button3
             // 
@@ -141,7 +142,7 @@
             this.button11.Text = "button11";
             this.button11.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -155,9 +156,9 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btExercicio02);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "Principal";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -167,7 +168,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btExercicio02;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;

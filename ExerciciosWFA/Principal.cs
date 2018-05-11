@@ -27,5 +27,11 @@ namespace ExerciciosWFA
             Exercicio01 exercicio01 = new Exercicio01();
             exercicio01.Show();
         }
+
+        private void btExercicio02_Click(object sender, EventArgs e)
+        {
+            Exercicio02 exercicio02 = new Exercicio02();
+            exercicio02.Show();
+        }
     }
 }

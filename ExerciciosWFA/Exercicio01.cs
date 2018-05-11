@@ -37,7 +37,18 @@ namespace ExerciciosWFA
         
         private void btGerar_Click(object sender, EventArgs e)
         {
+            try
+            {
             numero = Convert.ToInt32(txtInformeUmNumero.Text);
+
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Leid, Nur Zahlen");
+                txtInformeUmNumero.Focus();
+                return;
+            }
             string aplicacao = "Numero: " + numero + " \nAntecessor: " + (numero -1) + "\nSucessor: " + (numero + 1);
             txtResultado.Text = aplicacao;
                         
