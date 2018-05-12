@@ -20,3 +20,5 @@ C:\Users\Lucas\Documents\GitHub\lista-vetor\exercicio-lista1-WFA\ExerciciosWFA\b
 C:\Users\Lucas\Documents\GitHub\lista-vetor\exercicio-lista1-WFA\ExerciciosWFA\bin\Debug\ExerciciosWFA.exe
 C:\Users\Lucas\Documents\GitHub\lista-vetor\exercicio-lista1-WFA\ExerciciosWFA\bin\Debug\ExerciciosWFA.pdb
 C:\Users\Lucas\Documents\GitHub\lista-vetor\exercicio-lista1-WFA\ExerciciosWFA\obj\Debug\ExerciciosWFA.Exercicio02.resources
+C:\Users\Lucas\Documents\GitHub\lista-vetor\exercicio-lista1-WFA\ExerciciosWFA\obj\Debug\ExerciciosWFA.Exercicio03.resources
+C:\Users\Lucas\Documents\GitHub\lista-vetor\exercicio-lista1-WFA\ExerciciosWFA\obj\Debug\ExerciciosWFA.Exercicio04.resources
