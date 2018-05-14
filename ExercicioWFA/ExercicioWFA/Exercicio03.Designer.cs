@@ -129,7 +129,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(303, 383);
+            this.ClientSize = new System.Drawing.Size(274, 255);
             this.Controls.Add(this.btProdutoDosValores);
             this.Controls.Add(this.btDivisao);
             this.Controls.Add(this.btMultiplicacao);
@@ -141,6 +141,7 @@
             this.Controls.Add(this.labelInformeUmNumero1);
             this.Name = "Exercicio03";
             this.Text = "Exercicio03";
+            this.Load += new System.EventHandler(this.Exercicio03_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

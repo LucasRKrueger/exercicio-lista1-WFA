@@ -24,8 +24,29 @@ namespace ExerciciosWFA
         }
         public void Armazenamento()
         {
-            numero1 = Convert.ToInt32(txtInformeUmNumero.Text);
-            numero2 = Convert.ToInt32(txtInformeUmNumero2.Text);
+            try
+            {
+             numero1 = Convert.ToInt32(txtInformeUmNumero.Text);
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Leid, Nur Zahlen");
+                txtInformeUmNumero.Focus();
+                return;
+            }
+
+            try
+            {
+                numero2 = Convert.ToInt32(txtInformeUmNumero2.Text);
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Leid, Nur Zahlen");
+                txtInformeUmNumero2.Focus();
+                return;
+            }
         }
 
         private void btSubtracao_Click(object sender, EventArgs e)
@@ -58,6 +79,11 @@ namespace ExerciciosWFA
         {
             Armazenamento();
             MessageBox.Show("A soma dos valores é: " + (numero1 + numero2));
+        }
+
+        private void Exercicio03_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
